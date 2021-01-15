@@ -35,7 +35,22 @@ body{
 	background-position: center;
 	position: relative;
 	overflow: hidden;
+small{
+       color: lightyellow;
+	width: 141ch;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: smalltext 5s linear infinite;
 }
+@keyframes smalltext{
+        0%{
+           Width: 0ch;
+        }
+        100%{
+           Width: 141ch;
+        }
+}
+
 .logo{
 	width: 300px;
 	height: 200px;
